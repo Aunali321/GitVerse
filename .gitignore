@@ -42,3 +42,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+.env
+lib/utils/env.g.dart
+lib/app/app.locator.dart
+lib/app/app.router.dart
+lib/app/app.bottomsheets.dart
+lib/app/app.dialogs.dart

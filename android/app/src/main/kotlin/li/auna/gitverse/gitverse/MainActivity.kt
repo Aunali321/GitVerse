@@ -1,4 +1,4 @@
-package li.auna.gitverse.gitverse
+package li.auna.gitverse
 
 import io.flutter.embedding.android.FlutterActivity
 
