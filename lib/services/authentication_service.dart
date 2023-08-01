@@ -25,11 +25,11 @@ class AuthenticationService {
   );
 
 // 3. Create a login method
-  late AccessTokenResponse? token;
+  AccessTokenResponse token = AccessTokenResponse();
 
   Future<void> login() async {
     try {
-      token = await oAuth2Helper.getToken();
+      token = await oAuth2Helper.getToken() ?? AccessTokenResponse();
     } catch (e) {
       print(e);
     }

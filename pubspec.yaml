@@ -12,6 +12,7 @@ dependencies:
   envied: ^0.3.0+3
   flutter:
     sdk: flutter
+  flutter_octicons: ^0.39.0
   http: ^0.13.6
   oauth2_client: ^3.2.1
   stacked: ^3.4.0
@@ -28,4 +29,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
+  assets:
+    - assets/images/
